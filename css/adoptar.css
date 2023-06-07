@@ -1,15 +1,12 @@
 body {
     color: rgb(14, 70, 113);
-    background-color: #18c6f299;
+    background-color: white;
 }
+
 html {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
 }
-body {
-    color: rgb(14, 70, 113);
-    background-color: #18c6f299;
-}
+
 nav ul li  {
     display: inline-block;
         text-align: left;
@@ -47,7 +44,7 @@ h2 {
     border-radius: 50px 50% 50% 50%;
     height: 65px;
     position: relative;
-   background-color: #18c6f299;
+   background-color:white;
 }
 footer {
     display: inline-block;
