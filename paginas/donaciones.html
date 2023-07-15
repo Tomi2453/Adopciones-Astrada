@@ -25,23 +25,30 @@
     <main>
       <section class="donation">
         <h2>Haz una donación</h2>
-        <p>Tu generosa donación ayudará a proporcionar refugio, alimentación y atención médica a los animales necesitados. ¡Cada pequeña contribución marca la diferencia!
+        <p class="parrafo1">Tu generosa donación ayudará a proporcionar refugio, alimentación y atención médica a los animales necesitados. ¡Cada pequeña contribución marca la diferencia!
             Recibimos todo tipo de donaciones.
         </p>
-        <form>
+        <form class="donation-form">
           <label for="amount">Cantidad:</label>
-          <input type="number" id="amount" name="amount" placeholder="Ingrese la cantidad"><br>
+          <input type="number" id="amount" name="amount" placeholder="Ingrese la cantidad" required>
+          
           <label for="name">Nombre:</label>
-          <input type="text" id="name" name="name" placeholder="Ingrese su nombre"><br>
+          <input type="text" id="name" name="name" placeholder="Ingrese su nombre" required>
+          
           <label for="email">Correo electrónico:</label>
-          <input type="email" id="email" name="email" placeholder="Ingrese su correo electrónico"><br>
-          <button type="submit">Donar ahora</button>
+          <input type="email" id="email" name="email" placeholder="Ingrese su correo electrónico" required>
+          
+          <button type="submit">Donar</button>
         </form>
       </section>
       <section class="about">
+        <div class="parrafo2">
         <h2>Sobre nosotros</h2>
-        <p>Somos un refugio de animales comprometido con el cuidado y bienestar de los animales sin hogar. Trabajamos arduamente para rescatar, rehabilitar y encontrar hogares amorosos para los animales abandonados y maltratados.</p>
-        <p>Tu apoyo financiero nos permite continuar con nuestra misión y brindarles una segunda oportunidad a estos adorables seres vivos. ¡Gracias por tu contribución!</p>
+        <p>Somos un refugio de animales comprometido con el cuidado y bienestar de los animales sin hogar. 
+          Trabajamos arduamente para rescatar, rehabilitar y encontrar hogares amorosos para los animales abandonados y maltratados.
+          Tu apoyo financiero nos permite continuar con nuestra misión y brindarles una segunda oportunidad a estos adorables seres vivos. ¡Gracias por tu contribución!</p>
+        <img src="..//imagenes/sobrenosotros.jpg" alt="grupo" class="nosotros">
+      </div>
       </section>
     </main>
     <footer>

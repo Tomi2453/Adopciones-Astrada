@@ -9,6 +9,7 @@
     <title>contacto-Nuestros Amigos</title>
     <link rel="shortcut icon" href="../imagenes/gatito.png" type="image/x-icon">
     <link rel="stylesheet" href="../css/contacto.css">
+</head>
    <body>
         <header>
         <nav>
@@ -19,32 +20,40 @@
             <li><a href="nuestrosamigos.html" >Nuestros amigos</a></li>
             <li><a href="donaciones.html" >Donaciones</a></li>
             <li><a href="adoptar.html" >Adoptar</a></li>
-          </div>
           </ul>
-        </div>
+          </div>
         </nav>
         </header>
         <main>
-          <div class="modify2">
+        
           <h2>Formulario de contacto</h2>
-          <form>
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre"><br>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email"><br>
+          <form class="donation-form">
+            <label for="name">Nombre:</label>
+            <input type="name" id="amount" name="amount" placeholder="Ingrese su Nombre" required>
+            
+            <label for="email">Mail:</label>
+            <input type="email" id="name" name="name" placeholder="Ingrese su Mail" required>
+            
             <label for="mensaje">Mensaje:</label>
-            <textarea id="mensaje" name="mensaje"></textarea><br>
-            <button type="submit">Enviar</button>
+            <input type="mensage" id="mensage" name="mensage" placeholder="Mensaje" required>
+            
+            <button type="submit">Donar</button>
           </form>
-        </div>
+
         </main>
         <footer>
               <h4>Nuestras redes:</h4>
-              <ul>
-              <li><a href="https://www.facebook.com/nuestrosamigos" target="_blank" rel="nofollow noopener noreferrer">facebook</a></li>
-              <li><a href="https://www.twitter.com/nuestrosamigos" target="_blank" rel="nofollow noopener noreferrer">twitter</a></li>
-              <li><a href="https://www.instagram.com/nuestrosamigos" target="_blank" rel="nofollow noopener noreferrer">instagram</a></li>
-              </ul>
+              <div class="iconos">
+              <a href="https://www.facebook.com/nuestrosamigos" target="_blank" rel="nofollow noopener noreferrer">
+              <img class="red" src="..//imagenes/facebook-f.svg" alt="facebook">
+            </a>
+              <a href="https://www.twitter.com/nuestrosamigos" target="_blank" rel="nofollow noopener noreferrer">
+              <img class="red" src="..//imagenes/twitter.svg" alt="twitter">
+            </a>
+              <a href="https://www.instagram.com/nuestrosamigos" target="_blank" rel="nofollow noopener noreferrer">
+              <img class="red" src="..//imagenes/instagram.svg" alt="instagram" >
+              </a>
+              </div>
           <p>Derechos de autor © 2023 Mi Empresa</p>
         </footer>
       </body>

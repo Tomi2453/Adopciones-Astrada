@@ -6,6 +6,7 @@ body {
     background-color: white;
   
 }
+
 nav ul li  {
     display: inline-block;
     text-decoration: none;
@@ -15,32 +16,52 @@ nav ul li  {
     margin-left: 10px;
     margin-right: 10px;
     padding: 0%;
-    font-size: 20px;
-    
+    font-size: 20px; 
 }
 
 ul {
+    
+    padding: 10px;
+    margin-top: 0px;
+    background-color: white;
     display: inline-block;
 }
+
+ul a:hover{
+    background-color: rgb(46, 106, 170);
+}
+
 a {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(14, 70, 113);
     text-decoration: none;
     text-align: center;
-    float: right;
+    float: right;  
 } 
+
 h1 {
-    color: rgb(14, 70, 113);
+    color: rgb(68, 121, 177);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 200%;
+    font-size: 40px;
     display: block;
+    text-align: center;
 }
+
+p{
+    text-align: center;
+}
+
 h2 {
-    color: rgb(14, 70, 113);
+    color: rgb(68, 121, 177);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
-    text-align: left;
+    font-size: 30px;
+    text-align: center;
 }
+
+.nuestros-amigos{
+    background-color: white;
+}
+
 .logo {
     width: 0%;
     margin: 0%;
@@ -49,24 +70,46 @@ h2 {
     height: 65px;
     position: relative;
 }
-footer {
-    display: inline-block;
-    position: relative;
-    margin-top: 30%;
-    font-size: 20%;
-}
+
 .imagen {
-    width: 480px;
-    height: 480px;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
 }
-.titulo {
-    font-size: 180%;
-    padding: 5%; 
-    margin: 0%;
+
+.animales-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.animales1{
+    padding: 15px 55px;
+    border-radius: 0px;
+}
+.animales1 img{
+    width: 200px;
+    border-radius: 0px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+.animales-content2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.animales2{
+    padding: 15px 55px;
+    border-radius: 10px;
+}
+.animales2 img{
+    width: 200px;
+    border-radius: 10px;
+    margin-bottom: 15px;
 }
 .tom {
    font-size: 100%;
    padding: 1%;
+   justify-content: space-between;
    
 }
 .contenedor {
@@ -74,3 +117,15 @@ footer {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
 }
+
+footer p{ 
+    font-size: 15px;
+    color: rgb(68, 121, 177);
+    background-color:  white;
+    padding: 10px;
+}
+
+
+
+
+
